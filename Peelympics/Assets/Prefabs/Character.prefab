@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 426358}
   - 198: {fileID: 19820546}
   - 199: {fileID: 19991172}
+  - 114: {fileID: 11470542}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -41,8 +42,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 488078}
   - 33: {fileID: 3327690}
-  - 65: {fileID: 6504474}
   - 23: {fileID: 2326900}
+  - 114: {fileID: 11447694}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -69,7 +70,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 136172}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.4000001, y: -13.8999996, z: 27.1000004}
+  m_LocalPosition: {x: -.460373402, y: -16.5658531, z: 30.6102257}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 498734}
@@ -119,18 +120,30 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 136172}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &6504474
-BoxCollider:
+--- !u!114 &11447694
+MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 136172}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92dcb5f2a11a2774aa6db518e1ab23f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPoints: 0
+--- !u!114 &11470542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b1817993aa0a74d89ebf9ccbd867aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  part: {fileID: 19820546}
 --- !u!198 &19820546
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -1157,8 +1170,8 @@ ParticleSystem:
       minMaxState: 1
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 0
-    type: 0
+    enabled: 1
+    type: 1
     plane0: {fileID: 0}
     plane1: {fileID: 0}
     plane2: {fileID: 0}
@@ -1175,7 +1188,7 @@ ParticleSystem:
       m_Bits: 4294967295
     quality: 0
     voxelSize: .5
-    collisionMessages: 0
+    collisionMessages: 1
   SubModule:
     enabled: 0
     subEmitterBirth: {fileID: 0}
