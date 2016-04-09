@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class ParticleHit : MonoBehaviour {
-
+	public ParticleSystem Impact;
 	public ParticleSystem part;
 	public ParticleCollisionEvent[] collisionEvents;
 	void Start() {
@@ -22,6 +22,8 @@ public class ParticleHit : MonoBehaviour {
 		} else {
 			Debug.Log("Script not found in collision!");
 		}
+		ParticleSystem tmp = Instantiate (Impact);
+		tmp.transform.position = other.transform.position;
 	}
 
 }
