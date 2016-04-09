@@ -16,7 +16,7 @@ public class ParticleHit : MonoBehaviour {
 	}
 	void OnParticleCollision(GameObject other) {
 		PointScript _pointScript = other.GetComponent<PointScript> ();
-		PlayerScript _playerScript = transform.parent.transform.parent.GetComponent<PlayerScript> ();
+		PlayerScript _playerScript = transform.parent.GetComponent<PlayerScript> ();
 		if (_pointScript != null && _playerScript != null) {
 			_playerScript.playerPoints += _pointScript.objectScore;
 		} else {

@@ -79,6 +79,7 @@
      <Compile Include="Assets\Scripts\Peelympics\ParticleHit.cs" />
      <Compile Include="Assets\Scripts\Peelympics\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\Peelympics\PointScript.cs" />
+     <Compile Include="Assets\Scripts\Peelympics\StartButton.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerShooting.cs" />
