@@ -15,9 +15,10 @@ public class GameManager : MonoBehaviour {
 			for (int a = 0; a < PlayerNum; a++) {
 				GameObject tmp = Instantiate (PlayerInstance);
 				tmp.transform.parent = this.gameObject.transform;
-				tmp.name = "Player " + a;
+				tmp.name = "Player" + a;
 				tmp.transform.position = this.transform.position;
-				tmp.transform.position = new Vector3(tmp.transform.position.x + _x, tmp.transform.position.y, tmp.transform.position.z);
+				tmp.transform.rotation = this.transform.rotation;
+				tmp.transform.localPosition = new Vector3(_x, 0, 0);
 				_x += PlayerSpacing;
 			}
 		} else {
@@ -26,9 +27,10 @@ public class GameManager : MonoBehaviour {
 			for (int a = 0; a < PlayerNum; a++) {
 				GameObject tmp = Instantiate (PlayerInstance);
 				tmp.transform.parent = this.gameObject.transform;
-				tmp.name = "Player " + a;
+				tmp.name = "Player" + a;
 				tmp.transform.position = this.transform.position;
-				tmp.transform.position = new Vector3(tmp.transform.position.x + _x, tmp.transform.position.y, tmp.transform.position.z);
+				tmp.transform.rotation = this.transform.rotation;
+				tmp.transform.localPosition = new Vector3(_x, 0, 0);
 				_x += PlayerSpacing;
 			}
 		}
