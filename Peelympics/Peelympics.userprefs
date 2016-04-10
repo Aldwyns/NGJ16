@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MobileInput\Scripts\CrossPlatformInputManager.cs">
+    <Files>
+      <File FileName="Assets\MobileInput\Scripts\CrossPlatformInputManager.cs" Line="8" Column="2" />
+      <File FileName="Assets\MobileInput\Scripts\Joystick.cs" Line="5" Column="1" />
+      <File FileName="Assets\MobileInput\Scripts\MobileControlRig.cs" Line="6" Column="1" />
+      <File FileName="Assets\MobileInput\Scripts\PlatformSpecific\MobileInput.cs" Line="5" Column="5" />
+      <File FileName="Assets\MobileInput\Scripts\PlatformSpecific\StandaloneInput.cs" Line="6" Column="5" />
+      <File FileName="Assets\MobileInput\Scripts\TouchJoystick.cs" Line="64" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
