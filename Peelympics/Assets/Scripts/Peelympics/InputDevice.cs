@@ -52,9 +52,9 @@ public class InputDevice : MonoBehaviour {
 			power -= powerFalloff * Time.deltaTime;
 		}
 		if (power > 4) {
-			powerRandom = Random.Range (power - 2, power + 2);
+			powerRandom = Random.Range (power - 4, power + 4);
 		} else {
-			powerRandom = Random.Range (power, power+4);
+			powerRandom = Random.Range (power, power+6);
 		}
 
 
@@ -73,9 +73,12 @@ public class InputDevice : MonoBehaviour {
 
 		}
 		if (PeeAngle != null) {
-			PeeAngle.transform.Rotate (new Vector3 (-Input.gyro.rotationRate.x, Input.gyro.rotationRate.y, 0));
-			Vector3 tmp = new Vector3 (Input.GetAxis ("Vertical"), Input.GetAxis ("Horizontal"), 0);
-			PeeAngle.transform.Rotate (tmp);
+			if (SystemInfo.deviceType == DeviceType.Handheld){
+				PeeAngle.transform.Rotate(new Vector3 (-(Input.gyro.rotationRate.x /2), Input.gyro.rotationRate.y, 0));
+			} else {
+				Vector3 tmp = new Vector3 (Input.GetAxis ("Vertical"), Input.GetAxis ("Horizontal"), 0);
+				PeeAngle.transform.Rotate (tmp);
+			}
 			PeeAngle.GetComponent<ParticleSystem> ().startSpeed = powerRandom;
 		}
 		if (gameManager == null) {

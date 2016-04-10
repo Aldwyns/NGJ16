@@ -8,6 +8,9 @@ public class ParticleHit : MonoBehaviour {
 
 	public GameObject AudioEmitter;
 	GameObject SoundManager;
+	int hitCount = 0;
+	public int hitCountLimit = 7;
+
 
 	void Start() {
 		part = GetComponent<ParticleSystem>();
@@ -19,18 +22,27 @@ public class ParticleHit : MonoBehaviour {
 	
 	}
 	void OnParticleCollision(GameObject other) {
-		PointScript _pointScript = other.GetComponent<PointScript> ();
-		PlayerScript _playerScript = transform.parent.GetComponent<PlayerScript> ();
-		if (_pointScript != null && _playerScript != null) {
-			_playerScript.playerPoints += _pointScript.objectScore;
-		} else {
-			Debug.Log("Script not found in collision!");
+		if (other.name != "ground") {
+			PointScript _pointScript = other.GetComponent<PointScript> ();
+			PlayerScript _playerScript = transform.parent.GetComponent<PlayerScript> ();
+			if (_pointScript != null && _playerScript != null) {
+				_playerScript.playerPoints += _pointScript.objectScore;
+			} else {
+				Debug.Log ("Script not found in collision!");
+			}
+			if (hitCount < hitCountLimit) {
+				ParticleSystem tmp = Instantiate (Impact);
+				tmp.transform.position = other.transform.position;
+				hitCount = 0;
+			} else {
+				hitCount++;
+			}
+			if (other.name.Contains ("Bucket")) {
+				GameObject tmp1 = Instantiate (AudioEmitter);
+				tmp1.GetComponent<AudioEmitter> ().bucketBool = true;
+				tmp1.transform.position = other.transform.position;
+			}
 		}
-		ParticleSystem tmp = Instantiate (Impact);
-		tmp.transform.position = other.transform.position;
-		GameObject tmp1 = Instantiate (AudioEmitter);
-		tmp1.GetComponent<AudioEmitter> ().bucketBool = true;
-		tmp1.transform.position = other.transform.position;
 	}
 
 }
