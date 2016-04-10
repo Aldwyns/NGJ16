@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &166202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 452564}
+  - 82: {fileID: 8273518}
+  - 114: {fileID: 11414022}
+  m_Layer: 0
+  m_Name: AudioEmitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &452564
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.43561363, y: 1.53974819, z: 15.4694309}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!82 &8273518
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166202}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &11414022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994f125a27fe1af45b4f9a8bb45a3929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BucketHit:
+  - {fileID: 8300000, guid: 3262bdde0d25cba48aa661434e40eacb, type: 3}
+  - {fileID: 8300000, guid: 3935502f6c559364ca89cb47210298b7, type: 3}
+  - {fileID: 8300000, guid: c3f0bd5591a2007439ee3f3ea88aceff, type: 3}
+  - {fileID: 8300000, guid: 8f482a7cdbe02d44cab1d4d25f3708b3, type: 3}
+  - {fileID: 8300000, guid: 861cb825b1360af4e99f426142b83caa, type: 3}
+  - {fileID: 8300000, guid: 56821f7603357694f921d2b8ce165672, type: 3}
+  PeeHeavyStart:
+  - {fileID: 8300000, guid: 06c530d90da5f0b49b44e62283688c9c, type: 3}
+  - {fileID: 8300000, guid: 758287a0f1672d14cb6d3a00b2e1534e, type: 3}
+  - {fileID: 8300000, guid: 938660a617878564291f1da1f771d43d, type: 3}
+  - {fileID: 8300000, guid: 82815d94da6cce9488458bcf815d7c5c, type: 3}
+  PeeHeavyStop:
+  - {fileID: 8300000, guid: 0b5b26540f178cb4e972415559282a00, type: 3}
+  - {fileID: 8300000, guid: a502ee0b47ed1c64f84ca0306053aa20, type: 3}
+  - {fileID: 8300000, guid: eb89b71052a3ff647837b696d68f1999, type: 3}
+  - {fileID: 8300000, guid: 6cb60e17601b7f847b3ebb7caf518bc6, type: 3}
+  - {fileID: 8300000, guid: 55990f1c66146034ab257d3ca1836a81, type: 3}
+  - {fileID: 8300000, guid: 4cf8fb37b56727648adff6b43f801bfa, type: 3}
+  bucketBool: 0
+  heavyStartBool: 0
+  heavyStopBool: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: BucketHit.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BucketHit.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3262bdde0d25cba48aa661434e40eacb, type: 3}
+    - target: {fileID: 0}
+      propertyPath: BucketHit.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3935502f6c559364ca89cb47210298b7, type: 3}
+    - target: {fileID: 0}
+      propertyPath: BucketHit.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: c3f0bd5591a2007439ee3f3ea88aceff, type: 3}
+    - target: {fileID: 0}
+      propertyPath: BucketHit.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8f482a7cdbe02d44cab1d4d25f3708b3, type: 3}
+    - target: {fileID: 0}
+      propertyPath: BucketHit.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 861cb825b1360af4e99f426142b83caa, type: 3}
+    - target: {fileID: 0}
+      propertyPath: BucketHit.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 56821f7603357694f921d2b8ce165672, type: 3}
+    - target: {fileID: 0}
+      propertyPath: PeeHeavyStart.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 06c530d90da5f0b49b44e62283688c9c, type: 3}
+    - target: {fileID: 0}
+      propertyPath: PeeHeavyStart.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 758287a0f1672d14cb6d3a00b2e1534e, type: 3}
+    - target: {fileID: 0}
+      propertyPath: PeeHeavyStart.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 938660a617878564291f1da1f771d43d, type: 3}
+    - target: {fileID: 0}
+      propertyPath: PeeHeavyStart.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 82815d94da6cce9488458bcf815d7c5c, type: 3}
+    - target: {fileID: 0}
+      propertyPath: PeeHeavyStop.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0b5b26540f178cb4e972415559282a00, type: 3}
+    - target: {fileID: 0}
+      propertyPath: PeeHeavyStop.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: a502ee0b47ed1c64f84ca0306053aa20, type: 3}
+    - target: {fileID: 0}
+      propertyPath: PeeHeavyStop.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: eb89b71052a3ff647837b696d68f1999, type: 3}
+    - target: {fileID: 0}
+      propertyPath: PeeHeavyStop.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6cb60e17601b7f847b3ebb7caf518bc6, type: 3}
+    - target: {fileID: 0}
+      propertyPath: PeeHeavyStop.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 55990f1c66146034ab257d3ca1836a81, type: 3}
+    - target: {fileID: 0}
+      propertyPath: PeeHeavyStop.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4cf8fb37b56727648adff6b43f801bfa, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 166202}
+  m_IsPrefabParent: 1

@@ -3,7 +3,10 @@ using System.Collections;
 
 public class StartButton : MonoBehaviour {
 
+
 	public GameObject Application;
+	public GameObject GameManager;
+	public GameObject SoundManager;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +19,17 @@ public class StartButton : MonoBehaviour {
 	}
 	public void clickStart()
 	{
-		Instantiate (Application);
+		GameObject tmp = Instantiate (GameManager);
+		tmp.transform.parent = Application.transform;
+		tmp.transform.position = Application.transform.position;
+		tmp.name = "GameManager";
+
+		SoundManager.GetComponent<SoundManager> ().inMenu = false;
+		SoundManager.GetComponent<SoundManager> ().isPlaying = false;
+		SoundManager.GetComponent<SoundManager> ().inGame = true;
+
 		transform.parent.gameObject.SetActive (false);
+
+
 	}
 }

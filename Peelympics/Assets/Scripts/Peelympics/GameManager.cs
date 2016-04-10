@@ -6,9 +6,18 @@ public class GameManager : MonoBehaviour {
 	public float PlayerSpacing = 2;
 	public int PlayerNum = 1;
 	public GameObject PlayerInstance;
+	GameObject SoundManager;
 
 	// Use this for initialization
 	void Start () {
+		foreach (Transform child in this.transform.parent) {
+			if (child.name == "SoundManager")
+			{
+				SoundManager = child.gameObject;
+			}
+		}
+
+
 		float _x = 0;
 		if (PlayerNum % 2 != 0) {
 			_x -= (PlayerNum / 2) * PlayerSpacing;
