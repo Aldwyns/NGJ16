@@ -73,6 +73,8 @@
      <Compile Include="Assets\Scripts\Managers\GameOverManager.cs" />
      <Compile Include="Assets\Scripts\Managers\PauseManager.cs" />
      <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\Peelympics\AnimationCalculator.cs" />
+     <Compile Include="Assets\Scripts\Peelympics\AnimationController.cs" />
      <Compile Include="Assets\Scripts\Peelympics\AudioEmitter.cs" />
      <Compile Include="Assets\Scripts\Peelympics\AutoDestroy.cs" />
      <Compile Include="Assets\Scripts\Peelympics\GameManager.cs" />
