@@ -5,6 +5,10 @@ public class ParticleHit : MonoBehaviour {
 	public ParticleSystem Impact;
 	public ParticleSystem part;
 	public ParticleCollisionEvent[] collisionEvents;
+
+	public GameObject AudioEmitter;
+	GameObject SoundManager;
+
 	void Start() {
 		part = GetComponent<ParticleSystem>();
 		collisionEvents = new ParticleCollisionEvent[16];
@@ -24,6 +28,9 @@ public class ParticleHit : MonoBehaviour {
 		}
 		ParticleSystem tmp = Instantiate (Impact);
 		tmp.transform.position = other.transform.position;
+		GameObject tmp1 = Instantiate (AudioEmitter);
+		tmp1.GetComponent<AudioEmitter> ().bucketBool = true;
+		tmp1.transform.position = other.transform.position;
 	}
 
 }

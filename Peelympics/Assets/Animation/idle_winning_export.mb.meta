@@ -4,14 +4,451 @@ timeCreated: 1460206487
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: buckid:arm_group
+    100002: buckid:body_mesh_group
+    100004: buckid:control_group
+    100006: buckid:head_ctrl
+    100008: buckid:head_group
+    100010: buckid:head_group 1
+    100012: buckid:IK_ctrl_group
+    100014: buckid:ikHandle2
+    100016: buckid:jaw_ctrl
+    100018: buckid:jaw_ctrl_group
+    100020: buckid:joint_group
+    100022: buckid:L_ankle_ctrl
+    100024: buckid:L_ankle_joint
+    100026: buckid:L_arm_ctrl
+    100028: buckid:L_arm_ctrl_group
+    100030: buckid:L_arm_group
+    100032: buckid:L_arm_IK_group
+    100034: buckid:L_arm_mesh_group
+    100036: buckid:L_ball_joint
+    100038: buckid:L_clavicle_ctrl
+    100040: buckid:L_clavicle_ctrl_group
+    100042: buckid:L_collar_joint
+    100044: buckid:L_elbow_ctrl
+    100046: buckid:L_elbow_joint
+    100048: buckid:L_finger1_joint
+    100050: buckid:L_finger2_joint
+    100052: buckid:L_finger3_joint
+    100054: buckid:L_FK_ankle_joint
+    100056: buckid:L_FK_ball_joint
+    100058: buckid:L_FK_elbow_joint
+    100060: buckid:L_FK_hip_joint
+    100062: buckid:L_FK_knee_joint
+    100064: buckid:L_FK_shoulder_joint
+    100066: buckid:L_FK_toe_joint
+    100068: buckid:L_FK_wrist_joint
+    100070: buckid:L_hand_ctrl
+    100072: buckid:L_hand_ctrl_group
+    100074: buckid:L_hand_joint
+    100076: buckid:L_hip_ctrl
+    100078: buckid:L_hip_ctrl_group
+    100080: buckid:L_hip_joint
+    100082: buckid:L_IK_ankle_joint
+    100084: buckid:L_IK_ball_joint
+    100086: buckid:L_IK_elbow_joint
+    100088: buckid:L_IK_hip_joint
+    100090: buckid:L_IK_knee_joint
+    100092: buckid:L_IK_shoulder_joint
+    100094: buckid:L_IK_toe_joint
+    100096: buckid:L_IK_wrist_joint
+    100098: buckid:L_knee_ctrl
+    100100: buckid:L_knee_joint
+    100102: buckid:L_leg_ctrl
+    100104: buckid:L_shoulder_ctrl
+    100106: buckid:L_shoulder_joint
+    100108: buckid:L_thumb1_joint
+    100110: buckid:L_thumb2_joint
+    100112: buckid:L_thumb3_joint
+    100114: buckid:L_thumb4_joint
+    100116: buckid:L_toe_ctrl
+    100118: buckid:L_toe_ctrl_group
+    100120: buckid:L_toe_joint
+    100122: buckid:L_wrist_ctrl
+    100124: buckid:L_wrist_joint
+    100126: buckid:lowBody_mesh
+    100128: buckid:lowerBody_mesh
+    100130: buckid:mesh
+    100132: buckid:midBody_mesh
+    100134: buckid:midSpine_ctrl
+    100136: buckid:neck_ctrl
+    100138: buckid:neck_joint
+    100140: buckid:nurbsCylinder1
+    100142: buckid:nurbsCylinder2
+    100144: buckid:nurbsCylinder3
+    100146: buckid:nurbsCylinder4
+    100148: buckid:nurbsCylinder5
+    100150: buckid:nurbsCylinder6
+    100152: buckid:nurbsCylinder7
+    100154: buckid:nurbsCylinder8
+    100156: buckid:nurbsSphere10
+    100158: buckid:nurbsSphere11
+    100160: buckid:nurbsSphere12
+    100162: buckid:nurbsSphere13
+    100164: buckid:nurbsSphere2
+    100166: buckid:nurbsSphere3
+    100168: buckid:nurbsSphere4
+    100170: buckid:nurbsSphere5
+    100172: buckid:nurbsSphere6
+    100174: buckid:nurbsSphere7
+    100176: buckid:nurbsSphere8
+    100178: buckid:nurbsSphere9
+    100180: buckid:orientation_group
+    100182: buckid:pCube1
+    100184: buckid:pCube10
+    100186: buckid:pCube11
+    100188: buckid:pCube12
+    100190: buckid:pCube13
+    100192: buckid:pCube14
+    100194: buckid:pCube15
+    100196: buckid:pCube16
+    100198: buckid:pCube2
+    100200: buckid:pCube3
+    100202: buckid:pCube4
+    100204: buckid:pCube5
+    100206: buckid:pCube6
+    100208: buckid:pCube7
+    100210: buckid:pCube8
+    100212: buckid:pCube9
+    100214: buckid:pCylinder1
+    100216: buckid:pCylinder2
+    100218: buckid:pelvis_ctrl
+    100220: buckid:pelvis_joint
+    100222: buckid:polySurface1
+    100224: buckid:polySurface2
+    100226: buckid:pSphere1
+    100228: buckid:pSphere2
+    100230: buckid:R_ankle_ctrl
+    100232: buckid:R_ankle_joint
+    100234: buckid:R_arm_ctrl
+    100236: buckid:R_arm_ctrl_group
+    100238: buckid:R_arm_group
+    100240: buckid:R_arm_IK_group
+    100242: buckid:R_arm_mesh_group
+    100244: buckid:R_ball_joint
+    100246: buckid:R_clavicle_ctrl
+    100248: buckid:R_clavicle_ctrl_group
+    100250: buckid:R_collar_joint
+    100252: buckid:R_elbow_ctrl
+    100254: buckid:R_elbow_joint
+    100256: buckid:R_finger1_joint
+    100258: buckid:R_finger2_joint
+    100260: buckid:R_finger3_joint
+    100262: buckid:R_FK_ankle_joint
+    100264: buckid:R_FK_ball_joint
+    100266: buckid:R_FK_elbow_joint
+    100268: buckid:R_FK_hip_joint
+    100270: buckid:R_FK_knee_joint
+    100272: buckid:R_FK_shoulder_joint
+    100274: buckid:R_FK_toe_joint
+    100276: buckid:R_FK_wrist_joint
+    100278: buckid:R_hand_ctrl
+    100280: buckid:R_hand_ctrl_group
+    100282: buckid:R_hand_joint
+    100284: buckid:R_hip_ctrl
+    100286: buckid:R_hip_ctrl_group
+    100288: buckid:R_hip_joint
+    100290: buckid:R_IK_ankle_joint
+    100292: buckid:R_IK_ball_joint
+    100294: buckid:R_IK_elbow_joint
+    100296: buckid:R_IK_hip_joint
+    100298: buckid:R_IK_knee_joint
+    100300: buckid:R_IK_shoulder_joint
+    100302: buckid:R_IK_toe_joint
+    100304: buckid:R_IK_wrist_joint
+    100306: buckid:R_knee_ctrl
+    100308: buckid:R_knee_joint
+    100310: buckid:R_leg_ctrl
+    100312: buckid:R_shoulder_ctrl
+    100314: buckid:R_shoulder_joint
+    100316: buckid:R_thumb1_joint
+    100318: buckid:R_thumb2_joint
+    100320: buckid:R_thumb3_joint
+    100322: buckid:R_thumb4_joint
+    100324: buckid:R_toe_ctrl
+    100326: buckid:R_toe_ctrl_group
+    100328: buckid:R_toe_joint
+    100330: buckid:R_wrist_ctrl
+    100332: buckid:R_wrist_joint
+    100334: buckid:rig
+    100336: buckid:root_ctrl
+    100338: buckid:spine_joint1
+    100340: buckid:spine_joint2
+    100342: buckid:spine_joint3
+    100344: buckid:sweatBand
+    100346: buckid:upperBody_mesh
+    100348: buckid:upperSpine_ctrl
+    100350: buckid:utilities_group
+    100352: //RootNode
+    400000: buckid:arm_group
+    400002: buckid:body_mesh_group
+    400004: buckid:control_group
+    400006: buckid:head_ctrl
+    400008: buckid:head_group
+    400010: buckid:head_group 1
+    400012: buckid:IK_ctrl_group
+    400014: buckid:ikHandle2
+    400016: buckid:jaw_ctrl
+    400018: buckid:jaw_ctrl_group
+    400020: buckid:joint_group
+    400022: buckid:L_ankle_ctrl
+    400024: buckid:L_ankle_joint
+    400026: buckid:L_arm_ctrl
+    400028: buckid:L_arm_ctrl_group
+    400030: buckid:L_arm_group
+    400032: buckid:L_arm_IK_group
+    400034: buckid:L_arm_mesh_group
+    400036: buckid:L_ball_joint
+    400038: buckid:L_clavicle_ctrl
+    400040: buckid:L_clavicle_ctrl_group
+    400042: buckid:L_collar_joint
+    400044: buckid:L_elbow_ctrl
+    400046: buckid:L_elbow_joint
+    400048: buckid:L_finger1_joint
+    400050: buckid:L_finger2_joint
+    400052: buckid:L_finger3_joint
+    400054: buckid:L_FK_ankle_joint
+    400056: buckid:L_FK_ball_joint
+    400058: buckid:L_FK_elbow_joint
+    400060: buckid:L_FK_hip_joint
+    400062: buckid:L_FK_knee_joint
+    400064: buckid:L_FK_shoulder_joint
+    400066: buckid:L_FK_toe_joint
+    400068: buckid:L_FK_wrist_joint
+    400070: buckid:L_hand_ctrl
+    400072: buckid:L_hand_ctrl_group
+    400074: buckid:L_hand_joint
+    400076: buckid:L_hip_ctrl
+    400078: buckid:L_hip_ctrl_group
+    400080: buckid:L_hip_joint
+    400082: buckid:L_IK_ankle_joint
+    400084: buckid:L_IK_ball_joint
+    400086: buckid:L_IK_elbow_joint
+    400088: buckid:L_IK_hip_joint
+    400090: buckid:L_IK_knee_joint
+    400092: buckid:L_IK_shoulder_joint
+    400094: buckid:L_IK_toe_joint
+    400096: buckid:L_IK_wrist_joint
+    400098: buckid:L_knee_ctrl
+    400100: buckid:L_knee_joint
+    400102: buckid:L_leg_ctrl
+    400104: buckid:L_shoulder_ctrl
+    400106: buckid:L_shoulder_joint
+    400108: buckid:L_thumb1_joint
+    400110: buckid:L_thumb2_joint
+    400112: buckid:L_thumb3_joint
+    400114: buckid:L_thumb4_joint
+    400116: buckid:L_toe_ctrl
+    400118: buckid:L_toe_ctrl_group
+    400120: buckid:L_toe_joint
+    400122: buckid:L_wrist_ctrl
+    400124: buckid:L_wrist_joint
+    400126: buckid:lowBody_mesh
+    400128: buckid:lowerBody_mesh
+    400130: buckid:mesh
+    400132: buckid:midBody_mesh
+    400134: buckid:midSpine_ctrl
+    400136: buckid:neck_ctrl
+    400138: buckid:neck_joint
+    400140: buckid:nurbsCylinder1
+    400142: buckid:nurbsCylinder2
+    400144: buckid:nurbsCylinder3
+    400146: buckid:nurbsCylinder4
+    400148: buckid:nurbsCylinder5
+    400150: buckid:nurbsCylinder6
+    400152: buckid:nurbsCylinder7
+    400154: buckid:nurbsCylinder8
+    400156: buckid:nurbsSphere10
+    400158: buckid:nurbsSphere11
+    400160: buckid:nurbsSphere12
+    400162: buckid:nurbsSphere13
+    400164: buckid:nurbsSphere2
+    400166: buckid:nurbsSphere3
+    400168: buckid:nurbsSphere4
+    400170: buckid:nurbsSphere5
+    400172: buckid:nurbsSphere6
+    400174: buckid:nurbsSphere7
+    400176: buckid:nurbsSphere8
+    400178: buckid:nurbsSphere9
+    400180: buckid:orientation_group
+    400182: buckid:pCube1
+    400184: buckid:pCube10
+    400186: buckid:pCube11
+    400188: buckid:pCube12
+    400190: buckid:pCube13
+    400192: buckid:pCube14
+    400194: buckid:pCube15
+    400196: buckid:pCube16
+    400198: buckid:pCube2
+    400200: buckid:pCube3
+    400202: buckid:pCube4
+    400204: buckid:pCube5
+    400206: buckid:pCube6
+    400208: buckid:pCube7
+    400210: buckid:pCube8
+    400212: buckid:pCube9
+    400214: buckid:pCylinder1
+    400216: buckid:pCylinder2
+    400218: buckid:pelvis_ctrl
+    400220: buckid:pelvis_joint
+    400222: buckid:polySurface1
+    400224: buckid:polySurface2
+    400226: buckid:pSphere1
+    400228: buckid:pSphere2
+    400230: buckid:R_ankle_ctrl
+    400232: buckid:R_ankle_joint
+    400234: buckid:R_arm_ctrl
+    400236: buckid:R_arm_ctrl_group
+    400238: buckid:R_arm_group
+    400240: buckid:R_arm_IK_group
+    400242: buckid:R_arm_mesh_group
+    400244: buckid:R_ball_joint
+    400246: buckid:R_clavicle_ctrl
+    400248: buckid:R_clavicle_ctrl_group
+    400250: buckid:R_collar_joint
+    400252: buckid:R_elbow_ctrl
+    400254: buckid:R_elbow_joint
+    400256: buckid:R_finger1_joint
+    400258: buckid:R_finger2_joint
+    400260: buckid:R_finger3_joint
+    400262: buckid:R_FK_ankle_joint
+    400264: buckid:R_FK_ball_joint
+    400266: buckid:R_FK_elbow_joint
+    400268: buckid:R_FK_hip_joint
+    400270: buckid:R_FK_knee_joint
+    400272: buckid:R_FK_shoulder_joint
+    400274: buckid:R_FK_toe_joint
+    400276: buckid:R_FK_wrist_joint
+    400278: buckid:R_hand_ctrl
+    400280: buckid:R_hand_ctrl_group
+    400282: buckid:R_hand_joint
+    400284: buckid:R_hip_ctrl
+    400286: buckid:R_hip_ctrl_group
+    400288: buckid:R_hip_joint
+    400290: buckid:R_IK_ankle_joint
+    400292: buckid:R_IK_ball_joint
+    400294: buckid:R_IK_elbow_joint
+    400296: buckid:R_IK_hip_joint
+    400298: buckid:R_IK_knee_joint
+    400300: buckid:R_IK_shoulder_joint
+    400302: buckid:R_IK_toe_joint
+    400304: buckid:R_IK_wrist_joint
+    400306: buckid:R_knee_ctrl
+    400308: buckid:R_knee_joint
+    400310: buckid:R_leg_ctrl
+    400312: buckid:R_shoulder_ctrl
+    400314: buckid:R_shoulder_joint
+    400316: buckid:R_thumb1_joint
+    400318: buckid:R_thumb2_joint
+    400320: buckid:R_thumb3_joint
+    400322: buckid:R_thumb4_joint
+    400324: buckid:R_toe_ctrl
+    400326: buckid:R_toe_ctrl_group
+    400328: buckid:R_toe_joint
+    400330: buckid:R_wrist_ctrl
+    400332: buckid:R_wrist_joint
+    400334: buckid:rig
+    400336: buckid:root_ctrl
+    400338: buckid:spine_joint1
+    400340: buckid:spine_joint2
+    400342: buckid:spine_joint3
+    400344: buckid:sweatBand
+    400346: buckid:upperBody_mesh
+    400348: buckid:upperSpine_ctrl
+    400350: buckid:utilities_group
+    400352: //RootNode
+    2300000: buckid:lowBody_mesh
+    2300002: buckid:lowerBody_mesh
+    2300004: buckid:midBody_mesh
+    2300006: buckid:pCube1
+    2300008: buckid:pCube10
+    2300010: buckid:pCube11
+    2300012: buckid:pCube12
+    2300014: buckid:pCube13
+    2300016: buckid:pCube14
+    2300018: buckid:pCube15
+    2300020: buckid:pCube16
+    2300022: buckid:pCube2
+    2300024: buckid:pCube3
+    2300026: buckid:pCube4
+    2300028: buckid:pCube5
+    2300030: buckid:pCube6
+    2300032: buckid:pCube7
+    2300034: buckid:pCube8
+    2300036: buckid:pCube9
+    2300038: buckid:pCylinder1
+    2300040: buckid:pCylinder2
+    2300042: buckid:polySurface1
+    2300044: buckid:polySurface2
+    2300046: buckid:pSphere1
+    2300048: buckid:pSphere2
+    2300050: buckid:sweatBand
+    2300052: buckid:upperBody_mesh
+    3300000: buckid:lowBody_mesh
+    3300002: buckid:lowerBody_mesh
+    3300004: buckid:midBody_mesh
+    3300006: buckid:pCube1
+    3300008: buckid:pCube10
+    3300010: buckid:pCube11
+    3300012: buckid:pCube12
+    3300014: buckid:pCube13
+    3300016: buckid:pCube14
+    3300018: buckid:pCube15
+    3300020: buckid:pCube16
+    3300022: buckid:pCube2
+    3300024: buckid:pCube3
+    3300026: buckid:pCube4
+    3300028: buckid:pCube5
+    3300030: buckid:pCube6
+    3300032: buckid:pCube7
+    3300034: buckid:pCube8
+    3300036: buckid:pCube9
+    3300038: buckid:pCylinder1
+    3300040: buckid:pCylinder2
+    3300042: buckid:polySurface1
+    3300044: buckid:polySurface2
+    3300046: buckid:pSphere1
+    3300048: buckid:pSphere2
+    3300050: buckid:sweatBand
+    3300052: buckid:upperBody_mesh
+    4300000: buckid:pCube1
+    4300002: buckid:pCylinder1
+    4300004: buckid:pCube2
+    4300006: buckid:pCube3
+    4300008: buckid:pCylinder2
+    4300010: buckid:pCube4
+    4300012: buckid:polySurface1
+    4300014: buckid:polySurface2
+    4300016: buckid:sweatBand
+    4300018: buckid:pSphere1
+    4300020: buckid:pSphere2
+    4300022: buckid:lowBody_mesh
+    4300024: buckid:lowerBody_mesh
+    4300026: buckid:midBody_mesh
+    4300028: buckid:upperBody_mesh
+    4300030: buckid:pCube11
+    4300032: buckid:pCube14
+    4300034: buckid:pCube15
+    4300036: buckid:pCube16
+    4300038: buckid:pCube12
+    4300040: buckid:pCube13
+    4300042: buckid:pCube5
+    4300044: buckid:pCube6
+    4300046: buckid:pCube7
+    4300048: buckid:pCube8
+    4300050: buckid:pCube9
+    4300052: buckid:pCube10
+    7400000: Take 001
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
-    bakeSimulation: 0
+    bakeSimulation: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -24,7 +461,387 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: buckid:mesh
+        weight: 1
+      - path: buckid:mesh/buckid:body_mesh_group
+        weight: 1
+      - path: buckid:mesh/buckid:body_mesh_group/buckid:lowBody_mesh
+        weight: 1
+      - path: buckid:mesh/buckid:body_mesh_group/buckid:lowerBody_mesh
+        weight: 1
+      - path: buckid:mesh/buckid:body_mesh_group/buckid:lowerBody_mesh/buckid:midBody_mesh
+        weight: 1
+      - path: buckid:mesh/buckid:body_mesh_group/buckid:lowerBody_mesh/buckid:midBody_mesh/buckid:upperBody_mesh
+        weight: 1
+      - path: buckid:mesh/buckid:head_group
+        weight: 1
+      - path: buckid:mesh/buckid:head_group/buckid:polySurface1
+        weight: 1
+      - path: buckid:mesh/buckid:head_group/buckid:polySurface2
+        weight: 1
+      - path: buckid:mesh/buckid:head_group/buckid:polySurface2/buckid:sweatBand
+        weight: 1
+      - path: buckid:mesh/buckid:head_group/buckid:pSphere1
+        weight: 1
+      - path: buckid:mesh/buckid:head_group/buckid:pSphere2
+        weight: 1
+      - path: buckid:mesh/buckid:L_arm_mesh_group
+        weight: 1
+      - path: buckid:mesh/buckid:L_arm_mesh_group/buckid:nurbsCylinder7
+        weight: 1
+      - path: buckid:mesh/buckid:L_arm_mesh_group/buckid:nurbsCylinder8
+        weight: 1
+      - path: buckid:mesh/buckid:L_arm_mesh_group/buckid:nurbsSphere11
+        weight: 1
+      - path: buckid:mesh/buckid:L_arm_mesh_group/buckid:nurbsSphere12
+        weight: 1
+      - path: buckid:mesh/buckid:L_arm_mesh_group/buckid:nurbsSphere13
+        weight: 1
+      - path: buckid:mesh/buckid:L_arm_mesh_group/buckid:pCube11
+        weight: 1
+      - path: buckid:mesh/buckid:L_arm_mesh_group/buckid:pCube12
+        weight: 1
+      - path: buckid:mesh/buckid:L_arm_mesh_group/buckid:pCube13
+        weight: 1
+      - path: buckid:mesh/buckid:L_arm_mesh_group/buckid:pCube14
+        weight: 1
+      - path: buckid:mesh/buckid:L_arm_mesh_group/buckid:pCube15
+        weight: 1
+      - path: buckid:mesh/buckid:L_arm_mesh_group/buckid:pCube16
+        weight: 1
+      - path: buckid:mesh/buckid:nurbsCylinder1
+        weight: 1
+      - path: buckid:mesh/buckid:nurbsCylinder2
+        weight: 1
+      - path: buckid:mesh/buckid:nurbsCylinder3
+        weight: 1
+      - path: buckid:mesh/buckid:nurbsCylinder4
+        weight: 1
+      - path: buckid:mesh/buckid:nurbsSphere2
+        weight: 1
+      - path: buckid:mesh/buckid:nurbsSphere3
+        weight: 1
+      - path: buckid:mesh/buckid:nurbsSphere4
+        weight: 1
+      - path: buckid:mesh/buckid:nurbsSphere5
+        weight: 1
+      - path: buckid:mesh/buckid:nurbsSphere6
+        weight: 1
+      - path: buckid:mesh/buckid:nurbsSphere7
+        weight: 1
+      - path: buckid:mesh/buckid:pCube1
+        weight: 1
+      - path: buckid:mesh/buckid:pCube2
+        weight: 1
+      - path: buckid:mesh/buckid:pCube3
+        weight: 1
+      - path: buckid:mesh/buckid:pCube4
+        weight: 1
+      - path: buckid:mesh/buckid:pCylinder1
+        weight: 1
+      - path: buckid:mesh/buckid:pCylinder2
+        weight: 1
+      - path: buckid:mesh/buckid:R_arm_mesh_group
+        weight: 1
+      - path: buckid:mesh/buckid:R_arm_mesh_group/buckid:nurbsCylinder5
+        weight: 1
+      - path: buckid:mesh/buckid:R_arm_mesh_group/buckid:nurbsCylinder6
+        weight: 1
+      - path: buckid:mesh/buckid:R_arm_mesh_group/buckid:nurbsSphere8
+        weight: 1
+      - path: buckid:mesh/buckid:R_arm_mesh_group/buckid:nurbsSphere9
+        weight: 1
+      - path: buckid:mesh/buckid:R_arm_mesh_group/buckid:nurbsSphere10
+        weight: 1
+      - path: buckid:mesh/buckid:R_arm_mesh_group/buckid:pCube5
+        weight: 1
+      - path: buckid:mesh/buckid:R_arm_mesh_group/buckid:pCube6
+        weight: 1
+      - path: buckid:mesh/buckid:R_arm_mesh_group/buckid:pCube7
+        weight: 1
+      - path: buckid:mesh/buckid:R_arm_mesh_group/buckid:pCube8
+        weight: 1
+      - path: buckid:mesh/buckid:R_arm_mesh_group/buckid:pCube9
+        weight: 1
+      - path: buckid:mesh/buckid:R_arm_mesh_group/buckid:pCube10
+        weight: 1
+      - path: buckid:rig
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:IK_ctrl_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:IK_ctrl_group/buckid:L_arm_IK_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:IK_ctrl_group/buckid:L_arm_IK_group/buckid:L_arm_ctrl_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:IK_ctrl_group/buckid:L_arm_IK_group/buckid:L_arm_ctrl_group/buckid:L_arm_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:IK_ctrl_group/buckid:L_arm_IK_group/buckid:L_arm_ctrl_group/buckid:L_arm_ctrl/buckid:ikHandle2
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:IK_ctrl_group/buckid:R_arm_IK_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:IK_ctrl_group/buckid:R_arm_IK_group/buckid:R_arm_ctrl_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:IK_ctrl_group/buckid:R_arm_IK_group/buckid:R_arm_ctrl_group/buckid:orientation_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:IK_ctrl_group/buckid:R_arm_IK_group/buckid:R_arm_ctrl_group/buckid:orientation_group/buckid:R_arm_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:L_clavicle_ctrl_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:L_clavicle_ctrl_group/buckid:L_clavicle_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:L_clavicle_ctrl_group/buckid:L_clavicle_ctrl/buckid:L_arm_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:L_clavicle_ctrl_group/buckid:L_clavicle_ctrl/buckid:L_arm_group/buckid:L_shoulder_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:L_clavicle_ctrl_group/buckid:L_clavicle_ctrl/buckid:L_arm_group/buckid:L_shoulder_ctrl/buckid:L_elbow_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:L_clavicle_ctrl_group/buckid:L_clavicle_ctrl/buckid:L_arm_group/buckid:L_shoulder_ctrl/buckid:L_elbow_ctrl/buckid:L_wrist_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:L_hand_ctrl_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:L_hand_ctrl_group/buckid:L_hand_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:R_clavicle_ctrl_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:R_clavicle_ctrl_group/buckid:R_clavicle_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:R_clavicle_ctrl_group/buckid:R_clavicle_ctrl/buckid:R_arm_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:R_clavicle_ctrl_group/buckid:R_clavicle_ctrl/buckid:R_arm_group/buckid:R_shoulder_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:R_clavicle_ctrl_group/buckid:R_clavicle_ctrl/buckid:R_arm_group/buckid:R_shoulder_ctrl/buckid:R_elbow_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:R_clavicle_ctrl_group/buckid:R_clavicle_ctrl/buckid:R_arm_group/buckid:R_shoulder_ctrl/buckid:R_elbow_ctrl/buckid:R_wrist_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:R_hand_ctrl_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:arm_group/buckid:R_hand_ctrl_group/buckid:R_hand_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:head_group 1
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:head_group 1/buckid:neck_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:head_group 1/buckid:neck_ctrl/buckid:head_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:head_group 1/buckid:neck_ctrl/buckid:head_ctrl/buckid:jaw_ctrl_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:head_group 1/buckid:neck_ctrl/buckid:head_ctrl/buckid:jaw_ctrl_group/buckid:jaw_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:L_hip_ctrl_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:L_hip_ctrl_group/buckid:L_hip_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:L_hip_ctrl_group/buckid:L_hip_ctrl/buckid:L_knee_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:L_hip_ctrl_group/buckid:L_hip_ctrl/buckid:L_knee_ctrl/buckid:L_ankle_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:L_hip_ctrl_group/buckid:L_hip_ctrl/buckid:L_knee_ctrl/buckid:L_ankle_ctrl/buckid:L_toe_ctrl_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:L_hip_ctrl_group/buckid:L_hip_ctrl/buckid:L_knee_ctrl/buckid:L_ankle_ctrl/buckid:L_toe_ctrl_group/buckid:L_toe_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:L_leg_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:pelvis_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:pelvis_ctrl/buckid:midSpine_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:pelvis_ctrl/buckid:midSpine_ctrl/buckid:upperSpine_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:R_hip_ctrl_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:R_hip_ctrl_group/buckid:R_hip_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:R_hip_ctrl_group/buckid:R_hip_ctrl/buckid:R_knee_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:R_hip_ctrl_group/buckid:R_hip_ctrl/buckid:R_knee_ctrl/buckid:R_ankle_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:R_hip_ctrl_group/buckid:R_hip_ctrl/buckid:R_knee_ctrl/buckid:R_ankle_ctrl/buckid:R_toe_ctrl_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:R_hip_ctrl_group/buckid:R_hip_ctrl/buckid:R_knee_ctrl/buckid:R_ankle_ctrl/buckid:R_toe_ctrl_group/buckid:R_toe_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:control_group/buckid:R_leg_ctrl
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:L_hand_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:L_hand_joint/buckid:L_finger1_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:L_hand_joint/buckid:L_finger1_joint/buckid:L_finger2_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:L_hand_joint/buckid:L_finger1_joint/buckid:L_finger2_joint/buckid:L_finger3_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:L_hand_joint/buckid:L_thumb1_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:L_hand_joint/buckid:L_thumb1_joint/buckid:L_thumb2_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:L_hand_joint/buckid:L_thumb1_joint/buckid:L_thumb2_joint/buckid:L_thumb3_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:L_hand_joint/buckid:L_thumb1_joint/buckid:L_thumb2_joint/buckid:L_thumb3_joint/buckid:L_thumb4_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:L_FK_hip_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:L_FK_hip_joint/buckid:L_FK_knee_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:L_FK_hip_joint/buckid:L_FK_knee_joint/buckid:L_FK_ankle_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:L_FK_hip_joint/buckid:L_FK_knee_joint/buckid:L_FK_ankle_joint/buckid:L_FK_ball_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:L_FK_hip_joint/buckid:L_FK_knee_joint/buckid:L_FK_ankle_joint/buckid:L_FK_ball_joint/buckid:L_FK_toe_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:L_hip_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:L_hip_joint/buckid:L_knee_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:L_hip_joint/buckid:L_knee_joint/buckid:L_ankle_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:L_hip_joint/buckid:L_knee_joint/buckid:L_ankle_joint/buckid:L_ball_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:L_hip_joint/buckid:L_knee_joint/buckid:L_ankle_joint/buckid:L_ball_joint/buckid:L_toe_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:L_IK_hip_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:L_IK_hip_joint/buckid:L_IK_knee_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:L_IK_hip_joint/buckid:L_IK_knee_joint/buckid:L_IK_ankle_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:L_IK_hip_joint/buckid:L_IK_knee_joint/buckid:L_IK_ankle_joint/buckid:L_IK_ball_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:L_IK_hip_joint/buckid:L_IK_knee_joint/buckid:L_IK_ankle_joint/buckid:L_IK_ball_joint/buckid:L_IK_toe_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:R_FK_hip_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:R_FK_hip_joint/buckid:R_FK_knee_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:R_FK_hip_joint/buckid:R_FK_knee_joint/buckid:R_FK_ankle_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:R_FK_hip_joint/buckid:R_FK_knee_joint/buckid:R_FK_ankle_joint/buckid:R_FK_ball_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:R_FK_hip_joint/buckid:R_FK_knee_joint/buckid:R_FK_ankle_joint/buckid:R_FK_ball_joint/buckid:R_FK_toe_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:R_hip_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:R_hip_joint/buckid:R_knee_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:R_hip_joint/buckid:R_knee_joint/buckid:R_ankle_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:R_hip_joint/buckid:R_knee_joint/buckid:R_ankle_joint/buckid:R_ball_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:R_hip_joint/buckid:R_knee_joint/buckid:R_ankle_joint/buckid:R_ball_joint/buckid:R_toe_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:R_IK_hip_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:R_IK_hip_joint/buckid:R_IK_knee_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:R_IK_hip_joint/buckid:R_IK_knee_joint/buckid:R_IK_ankle_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:R_IK_hip_joint/buckid:R_IK_knee_joint/buckid:R_IK_ankle_joint/buckid:R_IK_ball_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:pelvis_joint/buckid:R_IK_hip_joint/buckid:R_IK_knee_joint/buckid:R_IK_ankle_joint/buckid:R_IK_ball_joint/buckid:R_IK_toe_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:R_hand_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:R_hand_joint/buckid:R_finger1_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:R_hand_joint/buckid:R_finger1_joint/buckid:R_finger2_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:R_hand_joint/buckid:R_finger1_joint/buckid:R_finger2_joint/buckid:R_finger3_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:R_hand_joint/buckid:R_thumb1_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:R_hand_joint/buckid:R_thumb1_joint/buckid:R_thumb2_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:R_hand_joint/buckid:R_thumb1_joint/buckid:R_thumb2_joint/buckid:R_thumb3_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:R_hand_joint/buckid:R_thumb1_joint/buckid:R_thumb2_joint/buckid:R_thumb3_joint/buckid:R_thumb4_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:L_collar_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:L_collar_joint/buckid:L_FK_shoulder_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:L_collar_joint/buckid:L_FK_shoulder_joint/buckid:L_FK_elbow_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:L_collar_joint/buckid:L_FK_shoulder_joint/buckid:L_FK_elbow_joint/buckid:L_FK_wrist_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:L_collar_joint/buckid:L_IK_shoulder_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:L_collar_joint/buckid:L_IK_shoulder_joint/buckid:L_IK_elbow_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:L_collar_joint/buckid:L_IK_shoulder_joint/buckid:L_IK_elbow_joint/buckid:L_IK_wrist_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:L_collar_joint/buckid:L_shoulder_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:L_collar_joint/buckid:L_shoulder_joint/buckid:L_elbow_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:L_collar_joint/buckid:L_shoulder_joint/buckid:L_elbow_joint/buckid:L_wrist_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:neck_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:R_collar_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:R_collar_joint/buckid:R_FK_shoulder_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:R_collar_joint/buckid:R_FK_shoulder_joint/buckid:R_FK_elbow_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:R_collar_joint/buckid:R_FK_shoulder_joint/buckid:R_FK_elbow_joint/buckid:R_FK_wrist_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:R_collar_joint/buckid:R_IK_shoulder_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:R_collar_joint/buckid:R_IK_shoulder_joint/buckid:R_IK_elbow_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:R_collar_joint/buckid:R_IK_shoulder_joint/buckid:R_IK_elbow_joint/buckid:R_IK_wrist_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:R_collar_joint/buckid:R_shoulder_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:R_collar_joint/buckid:R_shoulder_joint/buckid:R_elbow_joint
+        weight: 1
+      - path: buckid:rig/buckid:root_ctrl/buckid:utilities_group/buckid:joint_group/buckid:spine_joint1/buckid:spine_joint2/buckid:spine_joint3/buckid:R_collar_joint/buckid:R_shoulder_joint/buckid:R_elbow_joint/buckid:R_wrist_joint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

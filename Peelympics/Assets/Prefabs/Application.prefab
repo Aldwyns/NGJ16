@@ -112,6 +112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PeeAngle: {fileID: 0}
   gameManager: {fileID: 189608}
+  power: 0
+  powerScale: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

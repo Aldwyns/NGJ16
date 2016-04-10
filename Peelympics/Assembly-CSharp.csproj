@@ -73,12 +73,14 @@
      <Compile Include="Assets\Scripts\Managers\GameOverManager.cs" />
      <Compile Include="Assets\Scripts\Managers\PauseManager.cs" />
      <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\Peelympics\AudioEmitter.cs" />
      <Compile Include="Assets\Scripts\Peelympics\AutoDestroy.cs" />
      <Compile Include="Assets\Scripts\Peelympics\GameManager.cs" />
      <Compile Include="Assets\Scripts\Peelympics\InputDevice.cs" />
      <Compile Include="Assets\Scripts\Peelympics\ParticleHit.cs" />
      <Compile Include="Assets\Scripts\Peelympics\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\Peelympics\PointScript.cs" />
+     <Compile Include="Assets\Scripts\Peelympics\SoundManager.cs" />
      <Compile Include="Assets\Scripts\Peelympics\StartButton.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
